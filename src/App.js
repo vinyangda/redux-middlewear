@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div>App</div>
     </div>
   );
 }
 
 export default App;
+
+// redux 는 store로 컴포넌트 전역에 props를 내려주기는 하지만 모든 일이 동기적으로 처리가 되어있다.
+// 이를 비동기적인 처리를 해 주기 위해 redux middle wear를 사용한다.
